@@ -16,3 +16,21 @@
     outline: none;
     border-bottom: 5px solid blue;
 }
+
+@media (max-width: 768px) {
+    .inputForm{
+        font-size: clamp(25px, 2vw, 7vw);
+        width: 80%;
+        max-width: 490px;
+        height: 5%;
+        position: relative;
+        top: 27%;
+        right: 0;
+        margin: auto;
+        border: none;
+        border-bottom: 5px solid red;
+        margin-bottom: 5vw;
+        /* border: 1px solid; */
+        transition: all 0.5s;
+    }
+}

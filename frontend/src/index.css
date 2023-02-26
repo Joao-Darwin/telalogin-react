@@ -50,4 +50,11 @@ h1 {
   .imgTelaLogin {
     max-width: 0;
   }
+
+  h1 {
+    font-size: clamp(30px, 5vw, 7vw);
+    right: auto;
+    top: 10%;
+    margin: auto;
+  }
 }

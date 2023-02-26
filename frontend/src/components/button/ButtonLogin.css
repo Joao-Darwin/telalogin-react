@@ -14,10 +14,17 @@
 
 @media (max-width: 768px) {
     .ButtonLogin {
-        width: 50%;
-        position: initial;
-        top: 28%;
-        right: none;
-        margin: auto;
+        font-size: clamp(25px, 2vw, 7vw);
+        width: 65%;
+        min-width: 250px;
+        height: 6%;
+        position: relative;
+        top: 30%;
+        right: 0;
+        background-color: rgb(30, 106, 248);
+        border: none;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
     }
 }
